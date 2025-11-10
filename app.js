@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/shafiqa-pro-max',(req, res)=>{
-    res.json([{id: 1, name:"Shafiqa", sname:"Alakbarova", age:"18"}])
+    res.json([{id: 1, name:"Shafiqa", sname:"Alakbarova", age:"18",imageUrl:"https://media.tenor.com/OZad3V7-ZgwAAAAM/baby-gumball-gumball.gif"}])
 })
 
 
