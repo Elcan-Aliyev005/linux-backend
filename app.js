@@ -11,6 +11,10 @@ app.get('/shafiqa-pro-max',(req, res)=>{
 })
 
 
+app.get('/elman-pro-max',(req, res)=>{
+    res.json([{id: 1, name:"Elman", sname:"Abdullayev", age:"86"}])
+})
+
 
 
 
