@@ -26,4 +26,4 @@ jobs:
           cd /var/www/linux-backend
           git pull
           npm install
-          pm2 restart linux-backend
+          pm2 restart api.elcanali.site
