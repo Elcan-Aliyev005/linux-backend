@@ -1,4 +1,4 @@
-name: linux-backend
+name: Deploy Backend
 
 on:
   push:
@@ -22,5 +22,5 @@ jobs:
         script: |
           cd /var/www/linux-backend
           git pull
-          npm install 
+          npm install
           pm2 restart linux-backend
