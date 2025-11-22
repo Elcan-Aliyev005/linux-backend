@@ -11,7 +11,7 @@ app.get('/shafiqa-pro-max',(req, res)=>{
 })
 
 app.get('/fariz-pro-max',(req, res)=>{
-    res.json([{id: 1, name:"Fariz", sname:"Əsədzadə", age:"96",imageUrl:"https://static.wikia.nocookie.net/kungfupanda/images/c/ca/Spirit_Tai_Lung.jpg/revision/latest/scale-to-width/360?cb=20240314201219"}])
+    res.json([{id: 1, name:"Fariz", sname:"Əsədzadə", age:"97",imageUrl:"https://static.wikia.nocookie.net/kungfupanda/images/c/ca/Spirit_Tai_Lung.jpg/revision/latest/scale-to-width/360?cb=20240314201219"}])
 })
 
 
