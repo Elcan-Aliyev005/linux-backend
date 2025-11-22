@@ -7,7 +7,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get('/shafiqa-pro-max',(req, res)=>{
-    res.json([{id: 1, name:"Shafiqa", sname:"Alakbarova", age:"19",imageUrl:"https://m.media-amazon.com/images/M/MV5BNDI1YjIyN2EtMWExZC00ZjFjLWI0ODAtMWY0ODYyODBmNGEzXkEyXkFqcGc@._V1_.jpg"}])
+    res.json([{id: 1, name:"Shafiqa", sname:"Alakbarova", age:"18",imageUrl:"https://m.media-amazon.com/images/M/MV5BNDI1YjIyN2EtMWExZC00ZjFjLWI0ODAtMWY0ODYyODBmNGEzXkEyXkFqcGc@._V1_.jpg"}])
 })
 
 app.get('/fariz-pro-max',(req, res)=>{
