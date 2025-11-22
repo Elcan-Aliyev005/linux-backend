@@ -2,8 +2,7 @@ name: Deploy Backend
 
 on:
   push:
-    branches:
-      - main
+    branches: [ "main" ]
 
 jobs:
   deploy:
@@ -12,6 +11,10 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
+
+    - name: Test Key Format
+      run: |
+        echo "${{ secrets.SERVER_SSH_KEY }}" | head -n 5
 
     - name: Deploy to Server
       uses: appleboy/ssh-action@v1.0.0
